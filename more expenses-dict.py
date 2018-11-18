@@ -15,16 +15,9 @@ if phonenum in customers:
     shoppingdict=customers[phonenum][3]
     if shoppinglistkey1 in shoppingdict:
         item1=shoppingdict[shoppinglistkey1]
+        a=(item1[0][2]*item1[0][3])
         print(item1[0][1])
     else:
         print("You have never shopped with us before, you have exciting offers for you")
 else:
     print("Sorry couldn't find your details, please create an account with us")
-
-
-
-
-
-
-
-
